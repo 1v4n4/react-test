@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const ErrorComponent = () => <div>{props.nonexisting}</div>
+// const ErrorComponent = () => <div>{props.nonexisting}</div>
 
 export default class Counter extends React.Component {
   constructor (props) {
@@ -53,7 +53,7 @@ export default class Counter extends React.Component {
       <div className='counter'>
         Counter: {this.state.counter}
       </div>
-      <ErrorComponent />
+
     </div>
   }
 
